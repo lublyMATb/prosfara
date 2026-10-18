@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-01T17:30:00+03:00",
+  "sources": [
+    {
+      "chain": "Alphamega",
+      "status": "ok",
+      "url": "https://www.alphamega.com.cy/",
+      "note": "Active offers verified on official public catalogue."
+    },
+    {
+      "chain": "Lidl",
+      "status": "ok",
+      "url": "https://www.lidl.com.cy/c/en-CY/super-savers-26kw40/a10103984",
+      "note": "1 October Super Savers verified on official page."
+    },
+    {
+      "chain": "METRO",
+      "status": "stale",
+      "url": "https://www.metro.com.cy/en/current_offers",
+      "note": "Latest indexed offer period ended 30 September; updater will publish only when a current period is detected."
+    },
+    {
+      "chain": "Sklavenitis",
+      "status": "directory",
+      "url": "https://sklavenitiscyprus.com.cy/en/catalogues/",
+      "note": "Store directory/catalogues connected; no reliable product-level public feed assumed."
+    }
+  ]
+}

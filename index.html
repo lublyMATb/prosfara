@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Prosfora.cy — current Cyprus supermarket offers with store addresses and maps." />
+  <meta name="referrer" content="no-referrer" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://cyprus-faq.com https://www.cyprus-faq.com https://www.brief.com.cy https://brief.com.cy https://www.paphoslife.com https://paphoslife.com https://www.alphamega.com.cy https://alphamega.com.cy https://www.lidl.com.cy https://lidl.com.cy https://www.metro.com.cy https://metro.com.cy https://sklavenitiscyprus.com.cy; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests" />
+  <title>Prosfora.cy — Cyprus Offers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header"><div class="shell header-inner"><a class="brand" href="./">Prosfora<span>.cy</span></a><nav><button class="nav-tab active" data-view="offers" type="button">Offers</button><button class="nav-tab" data-view="stores" type="button">Stores</button></nav><span class="status-pill">No AI · live-source build</span></div></header>
+<main class="shell">
+<section class="hero"><p class="eyebrow">CYPRUS SUPERMARKET OFFERS</p><h1>One place for supermarket deals.</h1><p class="hero-copy">Search current offers, compare discounts, see the store address and open the branch directly in Maps.</p>
+<div class="search-box"><span aria-hidden="true">⌕</span><label class="sr-only" for="search">Search offers</label><input id="search" type="search" maxlength="100" autocomplete="off" placeholder="Try: eggs, молоко, ψωμί, coffee..."/><button id="clear-search" type="button" aria-label="Clear search">×</button></div>
+<div class="filters">
+<label><span>Store</span><select id="store-filter"><option value="">All stores</option></select></label>
+<label><span>City</span><select id="city-filter"><option value="">All cities</option></select></label>
+<label><span>Category</span><select id="category-filter"><option value="">All categories</option></select></label>
+<label><span>Minimum discount</span><select id="discount-filter"><option value="0">Any discount</option><option value="10">10%+</option><option value="20">20%+</option><option value="30">30%+</option></select></label>
+<label><span>Sort</span><select id="sort-filter"><option value="discount">Biggest discount</option><option value="price-asc">Lowest price</option><option value="price-desc">Highest price</option><option value="ending">Ending soon</option></select></label>
+</div></section>
+<section id="source-banner" class="source-banner" aria-live="polite"></section>
+<section id="offers-view" class="view active">
+<div class="section-heading"><div><p class="eyebrow">ACTIVE OFFERS</p><h2>Deals</h2></div><p id="result-count" class="muted"></p></div>
+<div id="offer-grid" class="offer-grid"></div><div id="empty-state" class="empty-state" hidden><h3>No matching offers</h3><p>Try another search or clear some filters.</p></div>
+</section>
+<section id="stores-view" class="view" hidden><div class="section-heading"><div><p class="eyebrow">STORE DIRECTORY</p><h2>Stores & branches</h2></div><p class="muted">Verified public branch information</p></div><div id="store-grid" class="store-grid"></div></section>
+<section class="info-grid"><article><strong>🔒 Safer by default</strong><p>No secret API keys in browser code. Search text never becomes HTML or a network URL.</p></article><article><strong>↻ Automatic checks</strong><p>GitHub Actions can re-check official retailer pages every 6 hours and keeps last-known-good data if parsing fails.</p></article><article><strong>🌍 No AI yet</strong><p>A small deterministic alias dictionary handles common English, Russian and Greek grocery words without sending queries anywhere.</p></article></section>
+</main>
+<dialog id="offer-dialog" class="offer-dialog"><button id="dialog-close" class="dialog-close" type="button" aria-label="Close">×</button><div id="dialog-visual" class="dialog-visual"></div><p id="dialog-store" class="eyebrow"></p><h2 id="dialog-title"></h2><p id="dialog-meta" class="muted"></p><div class="dialog-prices"><strong id="dialog-price"></strong><span id="dialog-old-price"></span><span id="dialog-discount" class="discount-badge"></span></div><p id="dialog-valid" class="validity"></p><div class="nearest-box"><span class="nearest-label">BRANCH</span><strong id="dialog-branch"></strong><span id="dialog-address" class="muted"></span></div><div class="dialog-actions"><a id="dialog-map" class="primary-button" target="_blank" rel="noopener noreferrer">Open in Maps ↗</a><a id="dialog-store-site" class="secondary-button" target="_blank" rel="noopener noreferrer">Store website ↗</a><a id="dialog-source" class="secondary-button" target="_blank" rel="noopener noreferrer">Offer source ↗</a></div></dialog>
+<footer><div class="shell"><p>Prosfora.cy · complete no-AI prototype · Always confirm the final price with the retailer.</p></div></footer>
+<script src="app.js" defer></script>
+</body></html>

@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-10-01T17:30:00+03:00",
+  "stores": [
+    {
+      "chain": "Alphamega",
+      "website": "https://www.alphamega.com.cy/",
+      "directoryUrl": "https://www.alphamega.com.cy/en/stores-opening-hours",
+      "feedStatus": "live",
+      "feedNote": "Official public online catalogue exposes prices and offer validity.",
+      "accent": "#12633a",
+      "photoUrl": "https://cyprus-faq.com/site/assets/files/56946/img_5222.webp",
+      "photoSource": "https://cyprus-faq.com/en/south/organizations/shops/food-products/alphamega-kapsalos/",
+      "branches": [
+        {
+          "name": "Alphamega Kapsalos",
+          "city": "Limassol",
+          "address": "Agias Filaxeos 191, Limassol 3083, Cyprus"
+        },
+        {
+          "name": "Alphamega Polemidia",
+          "city": "Limassol",
+          "address": "Katsantonaion 20, Limassol 4155, Cyprus"
+        },
+        {
+          "name": "Alphamega Paphos",
+          "city": "Paphos",
+          "address": "Dimokratias Ave. 87, Paphos 8028, Cyprus"
+        },
+        {
+          "name": "Alphamega Acropoli",
+          "city": "Nicosia",
+          "address": "Georgiou Davari, Acropoli 2024, Nicosia, Cyprus"
+        },
+        {
+          "name": "Alphamega Mandria",
+          "city": "Paphos",
+          "address": "Mandria, Paphos District, Cyprus"
+        }
+      ]
+    },
+    {
+      "chain": "Lidl",
+      "website": "https://www.lidl.com.cy/",
+      "directoryUrl": "https://www.lidl.com.cy/s/en-CY/storesearch/",
+      "feedStatus": "live",
+      "feedNote": "Official Cyprus weekly offer pages and store finder.",
+      "accent": "#0050aa",
+      "photoUrl": "https://www.paphoslife.com/images/blog/2024/lidl-and-neon-mall/lidl-and-neon-mall_01.jpg",
+      "photoSource": "https://www.paphoslife.com/blog/lidl-and-neon-mall",
+      "branches": [
+        {
+          "name": "Lidl Pafos — Leoforos Dimokratias",
+          "city": "Paphos",
+          "address": "Leoforos Dimokratias 30, Paphos 8028, Cyprus"
+        },
+        {
+          "name": "Lidl Pafos — Alexandrou Ypsilanti",
+          "city": "Paphos",
+          "address": "Alexandrou Ypsilanti 49, Paphos 8020, Cyprus"
+        },
+        {
+          "name": "Lidl Pafos — Tombs of the Kings",
+          "city": "Paphos",
+          "address": "Tombs of the Kings 104, Paphos 8015, Cyprus"
+        },
+        {
+          "name": "Lidl Lemesos — Agias Filakseos",
+          "city": "Limassol",
+          "address": "Agias Filakseos 220, Limassol 3082, Cyprus"
+        },
+        {
+          "name": "Lidl Lemesos — Franklin Roosvelt",
+          "city": "Limassol",
+          "address": "Franklin Roosvelt 45, Limassol 3012, Cyprus"
+        },
+        {
+          "name": "Lidl Lefkosia — John Kennedy",
+          "city": "Nicosia",
+          "address": "John Kennedy 79 & 81, Nicosia 1046, Cyprus"
+        },
+        {
+          "name": "Lidl Lefkosia — Kyriakou Matsi",
+          "city": "Nicosia",
+          "address": "Kyriakou Matsi 51, Nicosia 2373, Cyprus"
+        }
+      ]
+    },
+    {
+      "chain": "METRO",
+      "website": "https://www.metro.com.cy/",
+      "directoryUrl": "https://www.metro.com.cy/en/stores",
+      "feedStatus": "watching",
+      "feedNote": "Official current-offers page is monitored; only non-expired offers are published.",
+      "accent": "#e31c2b",
+      "photoUrl": "https://www.brief.com.cy/sites/default/files/2025-11/metro_agias_fylaxeos_press_article.jpg",
+      "photoSource": "https://www.brief.com.cy/etairika-nea/ta-metro-egkainiazoyn-nea-yperagora-stin-agias-fylaxeos-lemesoy",
+      "branches": [
+        {
+          "name": "METRO Agias Filaxeos",
+          "city": "Limassol",
+          "address": "Agias Filaxeos 248, Limassol 3082, Cyprus"
+        },
+        {
+          "name": "METRO Moutagiaka",
+          "city": "Limassol",
+          "address": "Ariadnis 5, Moutagiaka, Limassol, Cyprus"
+        },
+        {
+          "name": "METRO Aglantzia",
+          "city": "Nicosia",
+          "address": "Leoforos Aglantzia 45, Aglantzia, Nicosia, Cyprus"
+        },
+        {
+          "name": "METRO Strovolos",
+          "city": "Nicosia",
+          "address": "Spyrou Kyprianou 365, Strovolos, Nicosia, Cyprus"
+        },
+        {
+          "name": "METRO Platy",
+          "city": "Nicosia",
+          "address": "Thessalonikis 9, Platy, Nicosia, Cyprus"
+        },
+        {
+          "name": "METRO Larnaca",
+          "city": "Larnaca",
+          "address": "Nikodimou Milona 1, Larnaca, Cyprus"
+        },
+        {
+          "name": "METRO Paralimni",
+          "city": "Paralimni",
+          "address": "Leoforos Protara 212, Paralimni, Cyprus"
+        }
+      ]
+    },
+    {
+      "chain": "Sklavenitis",
+      "website": "https://sklavenitiscyprus.com.cy/en/",
+      "directoryUrl": "https://sklavenitiscyprus.com.cy/en/locations/",
+      "feedStatus": "catalogue",
+      "feedNote": "Official store directory and catalogues are connected; no product-level public feed is assumed.",
+      "accent": "#143f88",
+      "photoUrl": "",
+      "photoSource": "https://sklavenitiscyprus.com.cy/en/locations/",
+      "branches": [
+        {
+          "name": "Sklavenitis Pafos II",
+          "city": "Paphos",
+          "address": "1 Hellados Avenue, Paphos 8020, Cyprus"
+        },
+        {
+          "name": "Sklavenitis Kato Pafos",
+          "city": "Paphos",
+          "address": "Ledas 4, Kato Paphos 8041, Cyprus"
+        },
+        {
+          "name": "Sklavenitis Geroskipou",
+          "city": "Paphos",
+          "address": "94 Archbishop Makarios III Avenue, Geroskipou 8201, Cyprus"
+        },
+        {
+          "name": "Sklavenitis Ypsonas",
+          "city": "Limassol",
+          "address": "Petraki Giallourou 20, Ypsonas, Limassol, Cyprus"
+        },
+        {
+          "name": "Sklavenitis Katholiki",
+          "city": "Limassol",
+          "address": "Achaion 4, Limassol 3022, Cyprus"
+        },
+        {
+          "name": "Sklavenitis Mall of Engomi",
+          "city": "Nicosia",
+          "address": "7-9 28th October Avenue, Engomi 2414, Nicosia, Cyprus"
+        },
+        {
+          "name": "Sklavenitis Larnaca",
+          "city": "Larnaca",
+          "address": "23 Spyrou Kyprianou Avenue, Larnaca 6013, Cyprus"
+        },
+        {
+          "name": "Sklavenitis Paralimni",
+          "city": "Paralimni",
+          "address": "1st April, Paralimni 5280, Cyprus"
+        }
+      ]
+    }
+  ]
+}
